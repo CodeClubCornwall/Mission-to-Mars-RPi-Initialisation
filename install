@@ -5,32 +5,32 @@ echo Mission to Mars Pi Setup
 echo
 echo OS Update
 echo
-#sudo apt-get update
+sudo apt-get update
 echo
 echo Installing Arduino IDE
 echo
-#sudo apt-get -y --force-yes install arduino
-#cp /usr/share/applications/arduino.desktop /home/pi/Desktop/arduino.desktop
+sudo apt-get -y --force-yes install arduino
+cp /usr/share/applications/arduino.desktop /home/pi/Desktop/arduino.desktop
 echo
 echo Installing Arduino NewPing Library
 echo
-#wget https://bitbucket.org/teckel12/arduino-new-ping/downloads/NewPing_v1.7.zip
-#sudo unzip NewPing_v1.7.zip -d /usr/share/arduino/libraries/ 
-#rm NewPing_v1.7.zip
+wget https://bitbucket.org/teckel12/arduino-new-ping/downloads/NewPing_v1.7.zip
+sudo unzip NewPing_v1.7.zip -d /usr/share/arduino/libraries/
+rm NewPing_v1.7.zip
 echo
 echo Installing Arduino Unit Test Library
 echo
-#wget https://github.com/mmurdoch/arduinounit/archive/v2.1.1.zip
-#unzip v2.1.1.zip
-#sudo cp -R /home/pi/arduinounit-2.1.1/src/ /usr/share/arduino/libraries/ArduinoUnit/
-#rm v2.1.1.zip
-#rm -fr arduinounit-2.1.1
+wget https://github.com/mmurdoch/arduinounit/archive/v2.1.1.zip
+unzip v2.1.1.zip
+sudo cp -R /home/pi/arduinounit-2.1.1/src/ /usr/share/arduino/libraries/ArduinoUnit/
+rm v2.1.1.zip
+rm -fr arduinounit-2.1.1
 echo
 echo Downloading Datasheets
 echo
-#wget http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
-#wget https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MPU-60xxA_rev_4.pdf
-#wget http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
-#wget http://www.micropik.com/PDF/HCSR04.pdf
+wget http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
+wget https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MPU-60xxA_rev_4.pdf
+wget http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
+wget http://www.micropik.com/PDF/HCSR04.pdf
 echo
 echo Finished
