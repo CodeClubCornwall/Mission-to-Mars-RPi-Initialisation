@@ -11,6 +11,8 @@ echo Installing Arduino IDE
 echo
 sudo apt-get -y --force-yes install arduino
 cp /usr/share/applications/arduino.desktop /home/pi/Desktop/arduino.desktop
+sed -i -- 's/serial.port=.*/serial.port=\/dev\/ttyUSB0/' /home/pi/.arduino/preferences.txt
+sed -i -- 's/board=.*/board=nano328/' /home/pi/.arduino/preferences.txt
 echo
 echo Installing Arduino NewPing Library
 echo
