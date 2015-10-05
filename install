@@ -49,4 +49,9 @@ wget https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MP
 wget http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
 wget http://www.micropik.com/PDF/HCSR04.pdf
 echo
+echo Clean up
+echo
+rm install
+rm -fr /home/pi/.git
+echo
 echo Finished
