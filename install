@@ -28,6 +28,11 @@ sudo cp -R /home/pi/arduinounit-2.1.1/src/ /usr/share/arduino/libraries/ArduinoU
 rm v2.1.1.zip
 rm -fr arduinounit-2.1.1
 echo
+echo Installing gitg
+echo
+sudo apt-get -y --force-yes install gitg
+cp /usr/share/applications/gitg.desktop /home/pi/Desktop/gitg.desktop
+echo
 echo Downloading Datasheets
 echo
 wget http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
