@@ -33,6 +33,15 @@ echo
 sudo apt-get -y --force-yes install gitg
 cp /usr/share/applications/gitg.desktop /home/pi/Desktop/gitg.desktop
 echo
+echo Installing RPiMobTimer
+echo
+wget https://github.com/SteveAmor/RPiMobTimer/archive/master.zip
+unzip master.zip
+rm /home/pi/master.zip
+echo
+echo Updating autostart
+sudo sh -c "echo '@sudo python /home/pi/RPiMobTimer-master/RPiMobTimer.py' >> /etc/xdg/lxsession/LXDE-pi/autostart" 
+echo
 echo Downloading Datasheets
 echo
 wget http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
