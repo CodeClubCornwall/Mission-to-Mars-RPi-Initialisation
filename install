@@ -53,5 +53,6 @@ echo Clean up
 echo
 rm install
 rm -fr /home/pi/.git
+rm -fr /home/pi/Mission-to-Mars-RPi-Initialisation
 echo
 echo Finished
