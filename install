@@ -38,6 +38,7 @@ echo
 wget https://github.com/SteveAmor/RPiMobTimer/archive/master.zip
 unzip master.zip
 rm /home/pi/master.zip
+sudo apt-get -y --force-yes install xdotool
 echo
 echo Updating autostart
 sudo sh -c "echo '@sudo python /home/pi/RPiMobTimer-master/RPiMobTimer.py' >> /etc/xdg/lxsession/LXDE-pi/autostart" 
