@@ -46,10 +46,10 @@ echo
 echo Downloading Datasheets
 echo
 mkdir /home/pi/Datasheets
-wget ‐‐directory-prefix=/home/pi/Datasheets http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf
-wget ‐‐directory-prefix=/home/pi/Datasheets https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MPU-60xxA_rev_4.pdf
-wget ‐‐directory-prefix=/home/pi/Datasheets http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf
-wget ‐‐directory-prefix=/home/pi/Datasheets http://www.micropik.com/PDF/HCSR04.pdf
+wget http://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf -P /home/pi/Datasheets/
+wget https://www.olimex.com/Products/Modules/Sensors/MOD-MPU6050/resources/RM-MPU-60xxA_rev_4.pdf -P /home/pi/Datasheets/
+wget http://www51.honeywell.com/aero/common/documents/myaerospacecatalog-documents/Defense_Brochures-documents/HMC5883L_3-Axis_Digital_Compass_IC.pdf  -P /home/pi/Datasheets/
+wget http://www.micropik.com/PDF/HCSR04.pdf -P /home/pi/Datasheets/
 echo
 echo Clean up
 echo
