@@ -7,6 +7,4 @@ Install file for setting up a Raspberry Pi for Mission to Mars
 
 `./install`
 
-Tested ok on Raspbian Wheezy
-
-RPiMobTimer autostart doesn't work on Raspbian Jessie
+Tested ok on Raspbian Wheezy and Jessie
