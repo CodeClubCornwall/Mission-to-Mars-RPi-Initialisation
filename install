@@ -41,6 +41,8 @@ rm /home/pi/master.zip
 sudo apt-get -y --force-yes install xdotool
 echo
 echo Updating autostart
+echo
+mkdir /home/pi/.config/autostart
 cp /home/pi/Mission-to-Mars-RPi-Initialisation/MobTimerAutostart.desktop /home/pi/.config/autostart/
 echo
 echo Downloading Datasheets
@@ -53,7 +55,6 @@ wget http://www.micropik.com/PDF/HCSR04.pdf -P /home/pi/Datasheets/
 echo
 echo Clean up
 echo
-rm install
 rm -fr /home/pi/.git
 rm -fr /home/pi/Mission-to-Mars-RPi-Initialisation
 echo
