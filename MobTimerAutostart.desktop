@@ -1,0 +1,9 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=RPiMobTimer
+Comment=
+Exec=sudo python /home/pi/RPiMobTimer-master/RPiMobTimer.py
+StartupNotify=false
+Terminal=false
+Hidden=false

@@ -41,7 +41,7 @@ rm /home/pi/master.zip
 sudo apt-get -y --force-yes install xdotool
 echo
 echo Updating autostart
-sudo sh -c "echo '@sudo python /home/pi/RPiMobTimer-master/RPiMobTimer.py' >> /etc/xdg/lxsession/LXDE-pi/autostart" 
+cp /home/pi/Mission-to-Mars-RPi-Initialisation/MobTimerAutostart.desktop /home/pi/.config/autostart/
 echo
 echo Downloading Datasheets
 echo
