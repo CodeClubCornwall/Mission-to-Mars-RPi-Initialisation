@@ -43,7 +43,7 @@ echo
 echo Updating autostart
 echo
 mkdir /home/pi/.config/autostart
-cp /home/pi/Mission-to-Mars-RPi-Initialisation/MobTimerAutostart.desktop /home/pi/.config/autostart/
+mv /home/pi/RPiMobTimer-master/MobTimerAutostart.desktop /home/pi/.config/autostart/
 echo
 echo Downloading Datasheets
 echo
