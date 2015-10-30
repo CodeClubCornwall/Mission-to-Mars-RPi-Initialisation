@@ -7,7 +7,7 @@ echo OS Update
 echo
 sudo apt-get update
 echo
-echo Installing Chromium
+echo Installing Iceweasel
 echo
 sudo apt-get -y --force-yes install iceweasel
 echo
