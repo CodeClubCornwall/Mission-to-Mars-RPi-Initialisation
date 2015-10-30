@@ -11,6 +11,10 @@ echo Installing Iceweasel
 echo
 sudo apt-get -y --force-yes install iceweasel
 echo
+echo Installing numlockx (to automatically enable numlock on boot)
+echo
+sudo apt-get -y --force-yes install numlockx
+echo
 echo Installing Arduino IDE
 echo
 sudo apt-get -y --force-yes install arduino
