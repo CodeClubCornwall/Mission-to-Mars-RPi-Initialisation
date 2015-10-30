@@ -9,7 +9,7 @@ sudo apt-get update
 echo
 echo Installing Chromium
 echo
-sudo apt-get -y --force-yes install chromium
+sudo apt-get -y --force-yes install iceweasel
 echo
 echo Installing Arduino IDE
 echo
